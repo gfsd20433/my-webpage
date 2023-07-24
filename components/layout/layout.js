@@ -42,8 +42,8 @@ function LayoutHeader(){
           <Nav className="ms-auto align-items-end" style={{background:'white'}}>
             <Nav.Link className='me-3'  href="/home">Home</Nav.Link>
             <Nav.Link className='me-3'  href="/awards">Awards</Nav.Link>
-            <Nav.Link className='me-3'  href="/academic">Academic-Work</Nav.Link>
-            <Nav.Link className='me-3'  href="/work-experience">Work-Experience</Nav.Link>
+            <Nav.Link className='me-3'  href="/academic">Academic Works</Nav.Link>
+            <Nav.Link className='me-3'  href="/work-experience">Working Experiences</Nav.Link>
             <Nav.Link className='me-3'  href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

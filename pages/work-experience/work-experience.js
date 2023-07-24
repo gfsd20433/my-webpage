@@ -3,7 +3,7 @@ import Layout from '../../components/layout/layout';
 import { Container, Col, ListGroup, Collapse, Image, Button, Accordion} from 'react-bootstrap';
 import styled from './work-experience.module.css'
 import Divider from '../../components/Divider/Divider';
-import ImageSlider from '../../components/ImageSlider/ImageSlider';
+import ImageSlider from '@/components/ImageSlider/';
 import jsonFile from './work-experience.json'
 import ImageViewer from '../../components/ImageViewer/ImageViewer';
 
