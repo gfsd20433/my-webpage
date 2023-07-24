@@ -274,12 +274,12 @@ function LayoutHeader() {
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Nav.Link, {
                             className: "me-3",
                             href: "/academic",
-                            children: "Academic-Work"
+                            children: "Academic Works"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Nav.Link, {
                             className: "me-3",
                             href: "/work-experience",
-                            children: "Work-Experience"
+                            children: "Working Experiences"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Nav.Link, {
                             className: "me-3",
