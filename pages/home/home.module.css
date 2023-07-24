@@ -1,0 +1,10 @@
+.table {
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+  /* adds 10px vertical spacing between cells */
+  margin-bottom: 10px;
+}
+
+.li, .ol{
+  list-style: none;
+}

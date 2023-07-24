@@ -1,0 +1,90 @@
+.h3icon{
+    margin: 25px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px rgba(45, 43, 46, 0.5)
+}
+
+.title{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+
+}
+
+.titleText{
+    text-align: center;
+    /* text-shadow: 0px 0px 2px rgb(206, 206, 206); */
+
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.titleCard{
+
+
+
+    width: 18rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+    padding: 20px;
+
+    border: none;
+    background-color: rgba(196,229,249,0.9);
+
+
+    box-shadow : 5px 5px 10px rgba(0,0,0,0.1); /* adjust values as needed */
+
+    transition: transform 0.2s ease-in-out;
+}
+
+.titleCard:hover {
+    transform: scale(1.05);
+    transition: transform 0.7s cubic-bezier(.1,1.78,.37,.92);
+    cursor: pointer; /* optional - change cursor to pointer on hover */
+  }
+
+.titleCard2{
+    composes: titleCard;
+    background-color:  rgba(229, 236, 245, 0.9);
+}
+
+
+.DescriptionCard{
+    background:#ffffff00;
+    border: none
+}
+
+.background {
+    position: fixed;
+    top: 5vh;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/images/board_alt.jpg");
+    background-size: cover;
+    z-index: -1; /* set a lower z-index to make sure the background image is behind the content */
+  }
+  .background::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    z-index: 1;
+  }
+

@@ -1,0 +1,44 @@
+{
+    "skills":[
+        {
+            "src":"/images/icons/unity.png",
+            "text":"Unity"
+        },
+        {
+            "src":"/images/icons/python.png",
+            "text":"Python3"
+        },
+        {
+            "src":"/images/icons/cpp.png",
+            "text":"C++"
+        },
+        {
+            "src":"/images/icons/csharp.png",
+            "text":"C#"
+        },
+        {
+            "src":"/images/icons/ps.png",
+            "text":"Adobe Photoshop"
+        },
+        {
+            "src":"/images/icons/ai.png",
+            "text":"Adobe Illustrator"
+        },
+        {
+            "src":"/images/icons/html.png",
+            "text":"HTML"
+        },
+        {
+            "src":"/images/icons/css.png",
+            "text":"CSS"
+        },
+        {
+            "src":"/images/icons/react.png",
+            "text":"React"
+        },
+        {
+            "src":"/images/icons/js.png",
+            "text":"Javascript"
+        }
+    ]
+}

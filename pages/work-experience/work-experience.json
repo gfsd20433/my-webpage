@@ -1,0 +1,92 @@
+{
+	"images":[
+		{
+			"idPrefix" : "polyU",
+			"photos": [
+				{
+					"src": "/polyu/cave01.jpeg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				},
+				{
+					"src": "/polyu/cave_preview001e.jpg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				},
+				{
+					"src": "/polyu/cave_preview002e.jpg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				},
+				{
+					"src": "/polyu/cave_preview003e.jpg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				}
+			]
+		},
+		{
+			"idPrefix" : "appMocha",
+			"photos": [
+				{
+					"src": "/gulumaru/g01.jpg",
+					"src_alt": "/gulumaru/g01_alt.jpg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				},
+				{
+					"src": "/gulumaru/g02.jpg",
+					"src_alt": "/gulumaru/g02_alt.jpg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				},
+				{
+					"src": "/gulumaru/g03.jpg",
+					"src_alt": "/gulumaru/g03_alt.jpg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				},
+				{
+					"src": "/gulumaru/g04.jpg",
+					"src_alt": "/gulumaru/g04_alt.jpg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				},
+				{
+					"src": "/gulumaru/gmat01.jpg",
+					"src_alt": "/gulumaru/gmat01_alt.jpg",
+					"alt": "",
+					"title": "",
+					"p": ""
+				}
+			]
+		}
+	],
+	"chartList":["Grimoire of Crimson", "Instinct", "Ember", "CREDENCE", "Online", "Sickest City", "Extinguisher", "Demetrius",  "Absolutely", "Perspectives", "Jakarta PROGRESSION", "I can avoid it.#φωφ", "Sentimental Journey", "Occidens", "TOKONOMA Spacewalk", "Karma", "More Than Diamond"],
+	"whissTech":[
+		{
+			"name":"MyAniTale",
+			"src":"https://www.youtube.com/embed/bQeULCc3bk4"
+		},
+		{
+			"name":"Devils Night",
+			"src":"https://www.youtube.com/embed/IPZ2irk5aho?start=66"
+		},
+		{
+			"name":"Baby Chaos",
+			"src":"https://www.youtube.com/embed/GhLsx9LIplw"
+		},
+		{
+			"name":"Hero of Alzano",
+			"src":"https://www.youtube.com/embed/c-vaeYfjwKA"
+		}
+	]
+}

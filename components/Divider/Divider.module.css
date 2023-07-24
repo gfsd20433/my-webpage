@@ -1,0 +1,17 @@
+.line{
+
+    border: 2px  #ffffff;
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    max-width: 50%;
+
+    margin: auto;
+
+}
+
+.line2{
+    border-top: 2px solid rgb(240, 240, 240);
+}

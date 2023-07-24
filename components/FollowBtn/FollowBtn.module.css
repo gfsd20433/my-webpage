@@ -1,0 +1,21 @@
+.button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #0d6efd;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #0a58ca; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+
+
+.a{
+    margin-inline-start: 0.25em;
+    margin-inline-end: 0.25em;
+    font-size: --bs-body-font-size;
+}
