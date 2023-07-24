@@ -250,6 +250,8 @@ function jobExperience() {
     const handleClose = ()=>{
         setImageItem(null);
     };
+    const jAppMocha = ToJsonObject("appMocha");
+    const jPolyU = ToJsonObject("polyU");
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(layout/* default */.Z, {
@@ -304,7 +306,7 @@ function jobExperience() {
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx(ImageSlider, {
-                                    json: ToJsonObject("polyU"),
+                                    json: jPolyU,
                                     handleItemClick: handleItemClick
                                 })
                             ]
@@ -357,7 +359,7 @@ function jobExperience() {
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx(ImageSlider, {
-                                    json: ToJsonObject("appMocha"),
+                                    json: jAppMocha,
                                     handleItemClick: handleItemClick
                                 })
                             ]

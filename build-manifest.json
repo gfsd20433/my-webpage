@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/GNpWEfgSWwfL6g3EqLoaf/_buildManifest.js",
-    "static/GNpWEfgSWwfL6g3EqLoaf/_ssgManifest.js"
+    "static/EQfubbAxkyRqCwnLK696_/_buildManifest.js",
+    "static/EQfubbAxkyRqCwnLK696_/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -161,7 +161,7 @@
       "static/chunks/252f366e-cd7635583e2be5ea.js",
       "static/chunks/105-93ee6f8369b5bc36.js",
       "static/chunks/380-07719dcb61dfdaf7.js",
-      "static/chunks/894-62820d1cdf2fb115.js",
+      "static/chunks/894-63ca9c5dbfef907e.js",
       "static/css/d2011d4c519c7137.css",
       "static/chunks/pages/work-experience-0c2ce7127edfee24.js"
     ],
@@ -173,7 +173,7 @@
       "static/chunks/252f366e-cd7635583e2be5ea.js",
       "static/chunks/105-93ee6f8369b5bc36.js",
       "static/chunks/380-07719dcb61dfdaf7.js",
-      "static/chunks/894-62820d1cdf2fb115.js",
+      "static/chunks/894-63ca9c5dbfef907e.js",
       "static/css/d2011d4c519c7137.css",
       "static/chunks/pages/work-experience/work-experience-c362e05ef0eb0720.js"
     ]
