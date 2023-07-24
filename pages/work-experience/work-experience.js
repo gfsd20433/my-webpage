@@ -36,6 +36,8 @@ function jobExperience() {
       setImageItem(null);
     };
 
+    const jAppMocha = ToJsonObject("appMocha");
+    const jPolyU = ToJsonObject("polyU");
 
     return (
         <>
@@ -57,7 +59,7 @@ function jobExperience() {
                             <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*3.5}><span>Developing virtual reality environment for research use</span></li>
                             <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*4}><span>Predict, collect and analyze people’s interaction and behaviors</span></li>
                         </ul>
-                        <ImageSlider json={ToJsonObject("polyU")} handleItemClick={handleItemClick}/>
+                        <ImageSlider json={jPolyU} handleItemClick={handleItemClick}/>
                         {/* <MyComponent/> */}
                     </Container>
                 </div>
@@ -74,7 +76,7 @@ function jobExperience() {
                         <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2}><span>Designing mobile games for young children</span></li>
                         <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2.5}><span>Games Released in name of <a href='http://website.gulumaru.com/'>GuluMaru</a></span></li>
                     </ul>
-                    <ImageSlider json={ToJsonObject("appMocha")} handleItemClick={handleItemClick}/>
+                    <ImageSlider json={jAppMocha} handleItemClick={handleItemClick}/>
                     </Container>
                 </div>
 
