@@ -74,7 +74,7 @@ function jobExperience() {
                     <ul>
                         <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*1.5}><span>Intern, Outsourcing (2018 - 2022)</span></li>
                         <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2}><span>Designing mobile games for young children</span></li>
-                        <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2.5}><span>Games Released in name of <a href='http://website.gulumaru.com/'>GuluMaru</a></span></li>
+                        <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2.5}><span>Games Released in name of <a href='http://website.gulumaru.com/' target='_blank'>GuluMaru</a></span></li>
                     </ul>
                     <ImageSlider json={jAppMocha} handleItemClick={handleItemClick}/>
                     </Container>
@@ -93,7 +93,7 @@ function jobExperience() {
                         <h3 data-aos="fade-left" data-aos-delay={delay*1}>Rayark Inc. - CytusII Chart Designer</h3>
                             <ul>
                                 <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*1.5}><span>Outsourcing (2017 - 2019)</span></li>
-                                <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2}><span>Designing game charts for <a href="https://rayark.com/g/cytus2/">CytusII</a></span></li>
+                                <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2}><span>Designing game charts for <a href="https://rayark.com/g/cytus2/" target='_blank'>CytusII</a></span></li>
                             </ul>
                             <CytusList show/>
                         </Col>
@@ -217,7 +217,7 @@ function WhissTech(){
                 <ul>
                     <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*1.5}><span>Active member (2021 - )</span></li>
                     <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2}><span>Focus on programming other than web-development. Involved in developing different small scale prototypes and providing solutions.</span></li>
-                    <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2.5}><a href='https://whisstech.com/'>Official Website</a></li>
+                    <li className={styled.li} data-aos="fade-left" data-aos-delay={delay*2.5}><a href='https://whisstech.com/' target='_blank'>Official Website</a></li>
                 </ul>
                 <div className='ms-3' data-aos="fade-left" data-aos-delay={delay*3}>
                     <div className='my-2'>Involved solutions:{' '}</div>

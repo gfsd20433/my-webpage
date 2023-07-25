@@ -29,7 +29,7 @@ function LayoutHeader(){
         <Navbar.Brand className="d-flex ms-3" href="/">
           <Image
                 priority
-                src="/images/profile.png"
+                src="/images/profile.jpg"
                 className={utilStyles.borderCircle}
                 height={40}
                 width={40}
@@ -62,7 +62,7 @@ function LayoutFooter(){
               <Nav.Link href="/home" className='d-flex align-items-center'>
                 <Image
                   priority
-                  src="/images/profile.png"
+                  src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
                   height={40}
                   width={40}
@@ -87,7 +87,7 @@ function LayoutFooter(){
             <Col>
                 <span style={{color:'#dddddd'}}>Downloads</span>
                 <div className=''>
-                  <a href={cvLink} className="text-white">Resume</a>
+                  <a href={cvLink} className="text-white" target="_blank">Resume</a>
                 </div>
             </Col>
           </div>

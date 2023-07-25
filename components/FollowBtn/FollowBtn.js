@@ -24,7 +24,7 @@ export default function FollowButton(props) {
   const result = BtnType(props);
   //const handleClick = () => {window.location.href = result[1];}
   return (
-    <a href={result[1]} className={styled.a} >
+    <a href={result[1]} className={styled.a} target="_blank">
       {result[0]}
     </a>
   );

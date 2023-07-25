@@ -91,7 +91,7 @@ function Skills(){
           <h2 data-aos="fade-left" style={{}}  data-aos-delay={delay*0}>Expertise</h2>
 
             <div className='m-3'>
-              <ul className='list-group' data-aos="fade-left" style={{overflowX:"hidden"}}  data-aos-delay={delay}>
+              <ul className='list-group overflow-hidden' data-aos="fade-left" style={{overflowX:"hidden"}}  data-aos-delay={delay}>
                 <li key="unity" className="list-group-item d-flex justify-content-between align-items-start">
                   <div className="ms-2 me-auto">
                     <div className="fw-bold">Unity</div>
@@ -107,7 +107,7 @@ function Skills(){
               </ul>
             </div>
 
-            <p data-aos="fade-left" style={{overflowX:"hidden"}}  data-aos-delay={delay*1}>And other self studied languages or professional applications.</p>
+            <p className='overflow-hidden' data-aos="fade-left" data-aos-delay={delay*1}>And other self studied languages or professional applications.</p>
             {/* <div>
               <Button variant="primary"  className='btn-block mt-1'>More Details</Button>
             </div> */}
@@ -154,7 +154,7 @@ function Education(){
 function Jobs(){
   const delay = 100;
   return (
-    <Container className="my-5" data-aos="fade-left" style={{overflowX:"hidden"}}>
+    <Container className="my-5 position-relative overflow-hidden" data-aos="fade-left">
       <Row className="align-items-center">
         {/* <Col sm={12} md={6}>
           <Image src="/images/home/home0.jpg" fluid />
@@ -163,10 +163,10 @@ function Jobs(){
           <h2>Work Experiences</h2>
           <ul>
             <li key="polyu" className={styled.li}>
-              <span><a href='https://www.polyu.edu.hk/'>PolyU</a>  - Research Assistant</span>
+              <span><a href='https://www.polyu.edu.hk/' target='_blank'>PolyU</a>  - Research Assistant</span>
               </li>
             <li key="appmocha" className={styled.li}>
-              <span><a href='https://website.app-mocha.com/'>App Mocha</a> - Game Programmer</span>
+              <span><a href='https://website.app-mocha.com/' target='_blank'>App Mocha</a> - Game Programmer</span>
               </li>
           </ul>
           <Button variant="primary"  className='btn-block mt-1' href="/job-experience">Participated Projects</Button>

@@ -18,7 +18,7 @@ function contact() {
           <Container className='d-md-flex'>
             <div className='col-md-6' data-aos="fade-right">
               <Image
-                src='/images/profile.png'
+                src='/images/profile.jpg'
                 className='mx-auto'
                 style={{height:'50vh', borderRadius:'10%'}}
               />
@@ -62,7 +62,7 @@ function Form(){
 
 
                 <div className='mt-4'  data-aos="fade-left"  data-aos-delay={delay*4}>
-                  <Button href={cvLink} className="">Download Resume</Button>
+                  <Button href={cvLink} target='_blank' className="">Download Resume</Button>
                 </div>
   </div>
   )

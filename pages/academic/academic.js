@@ -199,9 +199,9 @@ function PigCity({useId, topMargin}){
             <Row className='pt-3' data-aos="fade-right">
                 <h4>Related websites</h4>
                 <ul>
-                    <li style={{listStyle: 'none'}}><a href='https://dl.acm.org/doi/10.1145/3341215.3358240'>CHI PLAY 2019</a></li>
-                    <li style={{listStyle: 'none'}}><a href='https://vco-create.vtc.edu.hk/en/project/detail/66'>VTC</a></li>
-                    <li style={{listStyle: 'none'}}><a href='https://www.facebook.com/thepigcity'>Facebook page</a></li>
+                    <li style={{listStyle: 'none'}}><a href='https://dl.acm.org/doi/10.1145/3341215.3358240' target='_blank'>CHI PLAY 2019</a></li>
+                    <li style={{listStyle: 'none'}}><a href='https://vco-create.vtc.edu.hk/en/project/detail/66' target='_blank'>VTC</a></li>
+                    <li style={{listStyle: 'none'}}><a href='https://www.facebook.com/thepigcity' target='_blank'>Facebook page</a></li>
                 </ul>
             </Row>
             </Container>

@@ -34,7 +34,8 @@ function achievement() {
                     <li><span>Project: BIG爆商場模擬預警系統</span></li>
                     <li><span>
                       Articles:{' '}
-                        <a href='https://www.facebook.com/yitnhk/posts/1523419977794620/?locale=zh_CN'>
+                        <a href='https://www.facebook.com/yitnhk/posts/1523419977794620/?locale=zh_CN'
+                          target='_blank'>
                           Facebook
                         </a>
                     </span></li>
@@ -103,10 +104,11 @@ function achievement() {
                   <h4>2020 - Best Interaction Award</h4>
                     <ul>
                       <li>
-                        <span>Game Submission: {' '}</span><Link href="https://globalgamejam.org/2020/games/re-80s-0">時光機 - Re. 80s</Link>
+                        <span>Game Submission: {' '}</span><Link href="https://globalgamejam.org/2020/games/re-80s-0" target='_blank'>時光機 - Re. 80s</Link>
                       </li>
                       <li><span>Articles:{' '}</span>
-                        <a href='https://www.facebook.com/ggjhongkong/posts/pfbid0xCYJbejNMiEkgGF8fk52vSvXwFQG6o1RyxTd8QfHvjpYNCxuJeES9voaFZxZBREal?__cft__[0]=AZUaOyjPVrCkB4ovo1XyJSDRD1xXMRmGrL13PbSUMOJpBZ0NlKKpu9xBXJEmCDGIhqHvVKPUq0A60brI9LdmCjmONJpb87FUSGK-j8ezhLNo4ugI6roEZnYCWSwT3fQaMpiSU3n-Psd31PTQjJA-IUmuP3xpECEATYsyXTt2OdQ9TA&__tn__=%2CO%2CP-R'>
+                        <a href='https://www.facebook.com/ggjhongkong/posts/pfbid0xCYJbejNMiEkgGF8fk52vSvXwFQG6o1RyxTd8QfHvjpYNCxuJeES9voaFZxZBREal?__cft__[0]=AZUaOyjPVrCkB4ovo1XyJSDRD1xXMRmGrL13PbSUMOJpBZ0NlKKpu9xBXJEmCDGIhqHvVKPUq0A60brI9LdmCjmONJpb87FUSGK-j8ezhLNo4ugI6roEZnYCWSwT3fQaMpiSU3n-Psd31PTQjJA-IUmuP3xpECEATYsyXTt2OdQ9TA&__tn__=%2CO%2CP-R'
+                          target='_blank'>
                           Facebook
                         </a></li>
                       <li className='d-flex justify-content-between flex-wrap'>
@@ -115,7 +117,7 @@ function achievement() {
                         </div>
                         <div className='col-md-0 py-2'></div>
                         <div className='col-md-6 d-flex justify-content-center'>
-                            <Image className='mx-1 my-auto' src='/images/ggj/re80.jpg' style={{height:source_height}} />
+                            <Image className='mx-1 my-auto' src='/images/ggj/re80.jpg' style={{maxHeight:source_height}} />
                         </div>
                       </li>
                   </ul>
@@ -124,10 +126,11 @@ function achievement() {
                   <h4>2021 - Best Original Mobile Game</h4>
                     <ul>
                       <li>
-                        <span>Game Submission: {' '}</span><Link href="https://globalgamejam.org/2021/games/%E8%87%B4%E5%8D%81%E5%B9%B4%E5%BE%8C%E7%9A%84%E4%BD%A0-you-10-years-1">致十年後的你 - To you, in 10 years</Link>
+                        <span>Game Submission: {' '}</span><Link href="https://globalgamejam.org/2021/games/%E8%87%B4%E5%8D%81%E5%B9%B4%E5%BE%8C%E7%9A%84%E4%BD%A0-you-10-years-1" target='_blank'>致十年後的你 - To you, in 10 years</Link>
                       </li>
                       <li><span>Articles:{' '}</span>
-                        <a href='https://www.facebook.com/ggjhongkong/posts/pfbid0f6oanTd5g9Vpg3KhbxYoxA2v7itNakGn1pLMiALos5qrXqCMQtkooU7kt1oQv4kQl?__cft__[0]=AZVWkrA_IooDOlQPO_QuRG5wXCJWUMFLOM3iIspQoUIMmixF9YQGqmSh20DGvq6HLNmQG5CVVd9x2N58BPMfWh-dTQy9C5IkIuePVMauL_WKpGDoUQK59CFPKiLCzsVB0VImuVcQLuihXDWib1MRw9qKFDZYHP4wliH9cTxOY9o9YA&__tn__=%2CO%2CP-R'>
+                        <a href='https://www.facebook.com/ggjhongkong/posts/pfbid0f6oanTd5g9Vpg3KhbxYoxA2v7itNakGn1pLMiALos5qrXqCMQtkooU7kt1oQv4kQl?__cft__[0]=AZVWkrA_IooDOlQPO_QuRG5wXCJWUMFLOM3iIspQoUIMmixF9YQGqmSh20DGvq6HLNmQG5CVVd9x2N58BPMfWh-dTQy9C5IkIuePVMauL_WKpGDoUQK59CFPKiLCzsVB0VImuVcQLuihXDWib1MRw9qKFDZYHP4wliH9cTxOY9o9YA&__tn__=%2CO%2CP-R'
+                          target='_blank'>
                           Facebook
                         </a></li>
                       <li className='d-md-flex justify-contents-between'>
@@ -136,7 +139,7 @@ function achievement() {
                         </div>
                         <div className='col-md-0 py-2'></div>
                         <div className='col-md-6 d-flex  justify-content-center'>
-                            <Image className='mx-1 my-auto'   src='/images/ggj/toyou10.png' style={{height:source_height}}/>
+                            <Image className='mx-1 my-auto'   src='/images/ggj/toyou10.png' style={{maxHeight:source_height}}/>
                         </div>
                       </li>
                   </ul>
@@ -145,10 +148,11 @@ function achievement() {
                   <h4>2022 - Global Vision Award</h4>
                     <ul>
                       <li>
-                        <span>Game Submission: {' '}</span><Link href="https://globalgamejam.org/2022/games/%E5%90%8C%E4%B8%80%E5%A4%A9%E7%A9%BA%EF%BC%8C%E4%B8%8D%E5%90%8C%E7%9A%84%E5%B9%B3%E5%9C%B0%E7%B7%9A-same-sky-different-horizon-3">同一天空下，不同的平地線 - Same Sky With Different Horizon</Link>
+                        <span>Game Submission: {' '}</span><Link href="https://globalgamejam.org/2022/games/%E5%90%8C%E4%B8%80%E5%A4%A9%E7%A9%BA%EF%BC%8C%E4%B8%8D%E5%90%8C%E7%9A%84%E5%B9%B3%E5%9C%B0%E7%B7%9A-same-sky-different-horizon-3" target='_blank'>同一天空下，不同的平地線 - Same Sky With Different Horizon</Link>
                       </li>
                       <li><span>Articles:{' '}</span>
-                        <a href='https://www.facebook.com/ggjhongkong/posts/pfbid0LDY1CfkFDVuriwAPZRKbHzNg5Epe54GPgKgaFpNaauBitQtX5yqs6B12EgQy8Xk4l?locale=zh_HK'>
+                        <a href='https://www.facebook.com/ggjhongkong/posts/pfbid0LDY1CfkFDVuriwAPZRKbHzNg5Epe54GPgKgaFpNaauBitQtX5yqs6B12EgQy8Xk4l?locale=zh_HK'
+                          target='_blank'>
                           Facebook
                         </a></li>
                       <li className='d-flex justify-content-between flex-wrap'>
@@ -157,7 +161,7 @@ function achievement() {
                         </div>
                         <div className='col-md-0 py-2'></div>
                         <div className='col-md-6 d-flex  justify-content-center'>
-                            <Image className='mx-1 my-auto'   src='/images/ggj/ssdh.jpeg' style={{height:source_height}}/>
+                            <Image className='mx-1 my-auto'   src='/images/ggj/ssdh.jpeg' style={{maxHeight:source_height, width:'auto'}}/>
                         </div>
                       </li>
                   </ul>
