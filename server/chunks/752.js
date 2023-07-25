@@ -172,6 +172,7 @@ function FollowButton(props) {
     return /*#__PURE__*/ jsx_runtime_.jsx("a", {
         href: result[1],
         className: (FollowBtn_module_default()).a,
+        target: "_blank",
         children: result[0]
     });
 }
@@ -236,7 +237,7 @@ function LayoutHeader() {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                         priority: true,
-                        src: "/images/profile.png",
+                        src: "/images/profile.jpg",
                         className: (_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_8___default().borderCircle),
                         height: 40,
                         width: 40,
@@ -310,7 +311,7 @@ function LayoutFooter() {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                         priority: true,
-                                        src: "/images/profile.png",
+                                        src: "/images/profile.jpg",
                                         className: (_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_8___default().borderCircle),
                                         height: 40,
                                         width: 40,
@@ -366,6 +367,7 @@ function LayoutFooter() {
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                         href: cvLink,
                                         className: "text-white",
+                                        target: "_blank",
                                         children: "Resume"
                                     })
                                 })

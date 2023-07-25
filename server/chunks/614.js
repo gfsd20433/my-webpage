@@ -58,7 +58,7 @@ function contact() {
                             className: "col-md-6",
                             "data-aos": "fade-right",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Image, {
-                                src: "/images/profile.png",
+                                src: "/images/profile.jpg",
                                 className: "mx-auto",
                                 style: {
                                     height: "50vh",
@@ -130,6 +130,7 @@ function Form() {
                 "data-aos-delay": delay * 4,
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.Button, {
                     href: cvLink,
+                    target: "_blank",
                     className: "",
                     children: "Download Resume"
                 })

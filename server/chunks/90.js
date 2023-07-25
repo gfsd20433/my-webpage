@@ -319,6 +319,7 @@ function PigCity({ useId , topMargin  }) {
                                             },
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 href: "https://dl.acm.org/doi/10.1145/3341215.3358240",
+                                                target: "_blank",
                                                 children: "CHI PLAY 2019"
                                             })
                                         }),
@@ -328,6 +329,7 @@ function PigCity({ useId , topMargin  }) {
                                             },
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 href: "https://vco-create.vtc.edu.hk/en/project/detail/66",
+                                                target: "_blank",
                                                 children: "VTC"
                                             })
                                         }),
@@ -337,6 +339,7 @@ function PigCity({ useId , topMargin  }) {
                                             },
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 href: "https://www.facebook.com/thepigcity",
+                                                target: "_blank",
                                                 children: "Facebook page"
                                             })
                                         })

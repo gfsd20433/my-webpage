@@ -265,7 +265,7 @@ function Skills() {
                                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                         className: "m-3",
                                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                            className: "list-group",
+                                            className: "list-group overflow-hidden",
                                             "data-aos": "fade-left",
                                             style: {
                                                 overflowX: "hidden"
@@ -306,10 +306,8 @@ function Skills() {
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        className: "overflow-hidden",
                                         "data-aos": "fade-left",
-                                        style: {
-                                            overflowX: "hidden"
-                                        },
                                         "data-aos-delay": delay * 1,
                                         children: "And other self studied languages or professional applications."
                                     }),
@@ -384,11 +382,8 @@ function Education() {
 function Jobs() {
     const delay = 100;
     return /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Container, {
-        className: "my-5",
+        className: "my-5 position-relative overflow-hidden",
         "data-aos": "fade-left",
-        style: {
-            overflowX: "hidden"
-        },
         children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Row, {
             className: "align-items-center",
             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Col, {
@@ -405,6 +400,7 @@ function Jobs() {
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             href: "https://www.polyu.edu.hk/",
+                                            target: "_blank",
                                             children: "PolyU"
                                         }),
                                         "  - Research Assistant"
@@ -417,6 +413,7 @@ function Jobs() {
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             href: "https://website.app-mocha.com/",
+                                            target: "_blank",
                                             children: "App Mocha"
                                         }),
                                         " - Game Programmer"

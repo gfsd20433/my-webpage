@@ -232,6 +232,7 @@ function jobExperience() {
                                                     "Games Released in name of ",
                                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                         href: "http://website.gulumaru.com/",
+                                                        target: "_blank",
                                                         children: "GuluMaru"
                                                     })
                                                 ]
@@ -284,6 +285,7 @@ function jobExperience() {
                                                                 "Designing game charts for ",
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                                     href: "https://rayark.com/g/cytus2/",
+                                                                    target: "_blank",
                                                                     children: "CytusII"
                                                                 })
                                                             ]
@@ -485,6 +487,7 @@ function WhissTech() {
                             "data-aos-delay": delay * 2.5,
                             children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                 href: "https://whisstech.com/",
+                                target: "_blank",
                                 children: "Official Website"
                             })
                         })
