@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[280],{8503:function(n,_,c){(window.__NEXT_P=window.__NEXT_P||[]).push(["/academic/academic",function(){return c(8090)}])}},function(n){n.O(0,[445,228,105,90,774,888,179],function(){return n(n.s=8503)}),_N_E=n.O()}]);
