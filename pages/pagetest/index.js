@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
+import ImageSlider from '@/components/ImageSlider/';
 
 function UncontrolledExample() {
   return (
@@ -53,10 +54,40 @@ function MyComponent() {
     return(b,d) => <>{a*b+d}</>
   }
 
+  const myJson={
+    "idPrefix" : "polyU",
+  "photos": [
+    {
+      "src": "/polyu/cave01.jpeg",
+      "alt": "",
+      "title": "",
+      "p": ""
+    },
+    {
+      "src": "/polyu/cave_preview001e.jpg",
+      "alt": "",
+      "title": "",
+      "p": ""
+    },
+    {
+      "src": "/polyu/cave_preview002e.jpg",
+      "alt": "",
+      "title": "",
+      "p": ""
+    },
+    {
+      "src": "/polyu/cave_preview003e.jpg",
+      "alt": "",
+      "title": "",
+      "p": ""
+    }
+  ]}
+
 
   return (
     <div>
       <UncontrolledExample/>
+      <ImageSlider json={myJson}/>
     </div>
   );
 }
