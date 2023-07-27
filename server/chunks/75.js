@@ -7,7 +7,8 @@ exports.modules = {
 
 // Exports
 module.exports = {
-	"title": "awards_title__EJwvz"
+	"title": "awards_title__EJwvz",
+	"iframe": "awards_iframe__JvgFN"
 };
 
 
@@ -323,9 +324,7 @@ function achievement() {
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                             className: "col-md-6 d-flex",
                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("iframe", {
-                                                                className: "mx-1 my-auto",
-                                                                width: source_width,
-                                                                height: source_height,
+                                                                className: (_awards_module_css__WEBPACK_IMPORTED_MODULE_6___default().iframe),
                                                                 src: "https://www.youtube.com/embed/6GffiwfLl04",
                                                                 title: "YouTube video player",
                                                                 allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
@@ -397,9 +396,7 @@ function achievement() {
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                             className: "col-md-6 d-flex",
                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("iframe", {
-                                                                className: "mx-1 my-auto",
-                                                                width: source_width,
-                                                                height: source_height,
+                                                                className: (_awards_module_css__WEBPACK_IMPORTED_MODULE_6___default().iframe),
                                                                 src: "https://www.youtube.com/embed/VSCOhvoQ0wU",
                                                                 title: "YouTube video player",
                                                                 allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
@@ -471,9 +468,7 @@ function achievement() {
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                             className: "col-md-6 d-flex",
                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("iframe", {
-                                                                className: "mx-1 my-auto",
-                                                                width: source_width,
-                                                                height: source_height,
+                                                                className: (_awards_module_css__WEBPACK_IMPORTED_MODULE_6___default().iframe),
                                                                 src: "https://www.youtube.com/embed/_6YzlSgZ5yY",
                                                                 title: "YouTube video player",
                                                                 allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",

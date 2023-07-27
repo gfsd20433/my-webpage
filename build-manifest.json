@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/iYi9i-03Cs1LAVVi_MeJu/_buildManifest.js",
-    "static/iYi9i-03Cs1LAVVi_MeJu/_ssgManifest.js"
+    "static/DOiqBrGWY3bOFbhS_pz7Q/_buildManifest.js",
+    "static/DOiqBrGWY3bOFbhS_pz7Q/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -66,8 +66,8 @@
       "static/chunks/558-c881ac02d0808cb2.js",
       "static/chunks/105-773eafb60ec0a82f.js",
       "static/chunks/664-8af8765c6fed5950.js",
-      "static/chunks/75-e690e87d1070db6d.js",
-      "static/css/03c6212acd185faf.css",
+      "static/chunks/75-451125d736cfc863.js",
+      "static/css/d8d4e42a3ad3396b.css",
       "static/chunks/pages/awards-eaedd320317ecad1.js"
     ],
     "/awards/awards": [
@@ -78,8 +78,8 @@
       "static/chunks/558-c881ac02d0808cb2.js",
       "static/chunks/105-773eafb60ec0a82f.js",
       "static/chunks/664-8af8765c6fed5950.js",
-      "static/chunks/75-e690e87d1070db6d.js",
-      "static/css/03c6212acd185faf.css",
+      "static/chunks/75-451125d736cfc863.js",
+      "static/css/d8d4e42a3ad3396b.css",
       "static/chunks/pages/awards/awards-e82c6e7ee005f2c4.js"
     ],
     "/certificates": [
@@ -175,8 +175,8 @@
       "static/chunks/558-c881ac02d0808cb2.js",
       "static/chunks/105-773eafb60ec0a82f.js",
       "static/chunks/380-07719dcb61dfdaf7.js",
-      "static/chunks/459-9b8f4258bf5139ee.js",
-      "static/css/d2011d4c519c7137.css",
+      "static/chunks/459-231ed431b7798ca2.js",
+      "static/css/4efbe4e76537bd4d.css",
       "static/chunks/pages/work-experience-2c8fddd14a1b7279.js"
     ],
     "/work-experience/work-experience": [
@@ -188,8 +188,8 @@
       "static/chunks/558-c881ac02d0808cb2.js",
       "static/chunks/105-773eafb60ec0a82f.js",
       "static/chunks/380-07719dcb61dfdaf7.js",
-      "static/chunks/459-9b8f4258bf5139ee.js",
-      "static/css/d2011d4c519c7137.css",
+      "static/chunks/459-231ed431b7798ca2.js",
+      "static/css/4efbe4e76537bd4d.css",
       "static/chunks/pages/work-experience/work-experience-19d6cad81bb6b9ba.js"
     ]
   },

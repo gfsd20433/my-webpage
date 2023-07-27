@@ -10,7 +10,8 @@ module.exports = {
 	"overlayBackground": "ImageViewer_overlayBackground__hic6L",
 	"overlayWindow": "ImageViewer_overlayWindow__7mEZf",
 	"overlayCloseBtn": "ImageViewer_overlayCloseBtn___093z",
-	"img": "ImageViewer_img__6ycqk"
+	"img": "ImageViewer_img__6ycqk",
+	"title": "ImageViewer_title__yQTN9"
 };
 
 
@@ -59,7 +60,7 @@ var Divider = __webpack_require__(517);
 // EXTERNAL MODULE: ./components/ImageSlider/index.js + 1 modules
 var ImageSlider = __webpack_require__(8245);
 ;// CONCATENATED MODULE: ./pages/work-experience/work-experience.json
-const work_experience_namespaceObject = JSON.parse('{"Wc":[{"idPrefix":"polyU","photos":[{"src":"/polyu/cave01.jpeg","alt":"","title":"","p":""},{"src":"/polyu/cave_preview001e.jpg","alt":"","title":"","p":""},{"src":"/polyu/cave_preview002e.jpg","alt":"","title":"","p":""},{"src":"/polyu/cave_preview003e.jpg","alt":"","title":"","p":""}]},{"idPrefix":"appMocha","photos":[{"src":"/gulumaru/g01.jpg","src_alt":"/gulumaru/g01_alt.jpg","alt":"","title":"","p":""},{"src":"/gulumaru/g02.jpg","src_alt":"/gulumaru/g02_alt.jpg","alt":"","title":"","p":""},{"src":"/gulumaru/g03.jpg","src_alt":"/gulumaru/g03_alt.jpg","alt":"","title":"","p":""},{"src":"/gulumaru/g04.jpg","src_alt":"/gulumaru/g04_alt.jpg","alt":"","title":"","p":""},{"src":"/gulumaru/gmat01.jpg","src_alt":"/gulumaru/gmat01_alt.jpg","alt":"","title":"","p":""}]}],"RL":["Grimoire of Crimson","Instinct","Ember","CREDENCE","Online","Sickest City","Extinguisher","Demetrius","Absolutely","Perspectives","Jakarta PROGRESSION","I can avoid it.#φωφ","Sentimental Journey","Occidens","TOKONOMA Spacewalk","Karma","More Than Diamond"],"z":[{"name":"MyAniTale","src":"https://www.youtube.com/embed/bQeULCc3bk4"},{"name":"Devils Night","src":"https://www.youtube.com/embed/IPZ2irk5aho?start=66"},{"name":"Baby Chaos","src":"https://www.youtube.com/embed/GhLsx9LIplw"},{"name":"Hero of Alzano","src":"https://www.youtube.com/embed/c-vaeYfjwKA"}]}');
+const work_experience_namespaceObject = JSON.parse('{"Wc":[{"idPrefix":"polyU","photos":[{"src":"/polyu/cave01.jpeg","alt":"","title":"","p":""},{"src":"/polyu/cave_preview001e.jpg","alt":"","title":"","p":""},{"src":"/polyu/cave_preview002e.jpg","alt":"","title":"","p":""},{"src":"/polyu/cave_preview003e.jpg","alt":"","title":"","p":""}]},{"idPrefix":"appMocha","photos":[{"src":"/gulumaru/g01.jpg","src_alt":"/gulumaru/g01_alt.jpg","alt":"","title":"Jump Jump Pon","p":"Gameplay: https://youtu.be/D6-_4AvDgvE"},{"src":"/gulumaru/g02.jpg","src_alt":"/gulumaru/g02_alt.jpg","alt":"","title":"All Day Eat","p":"Gameplay: https://youtu.be/visulyX9sog"},{"src":"/gulumaru/g03.jpg","src_alt":"/gulumaru/g03_alt.jpg","alt":"","title":"QQ Math","p":"Gameplay: https://youtube.com/shorts/X17rhmWvOBg?feature=share"},{"src":"/gulumaru/g04.jpg","src_alt":"/gulumaru/g04_alt.jpg","alt":"","title":"My Own Color","p":"Gameplay: https://youtu.be/plmD-OblX2g"},{"src":"/gulumaru/gmat01.jpg","src_alt":"/gulumaru/gmat01_alt.jpg","alt":"","title":"MyAniTale","p":"Demo: https://www.youtube.com/watch?v=bQeULCc3bk4"}]}],"RL":["Grimoire of Crimson","Instinct","Ember","CREDENCE","Online","Sickest City","Extinguisher","Demetrius","Absolutely","Perspectives","Jakarta PROGRESSION","I can avoid it.#φωφ","Sentimental Journey","Occidens","TOKONOMA Spacewalk","Karma","More Than Diamond"],"z":[{"name":"MyAniTale","src":"https://www.youtube.com/embed/bQeULCc3bk4"},{"name":"Devils Night","src":"https://www.youtube.com/embed/IPZ2irk5aho?start=66"},{"name":"Baby Chaos","src":"https://www.youtube.com/embed/GhLsx9LIplw"},{"name":"Hero of Alzano","src":"https://www.youtube.com/embed/c-vaeYfjwKA"}]}');
 // EXTERNAL MODULE: ./components/ImageViewer/ImageViewer.module.css
 var ImageViewer_module = __webpack_require__(1287);
 var ImageViewer_module_default = /*#__PURE__*/__webpack_require__.n(ImageViewer_module);
@@ -73,6 +74,30 @@ function ImageViewer(props) {
     const handleWindowClick = (event)=>{
         event.stopPropagation();
     };
+    const URL_REGEX = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/gm;
+    function TryParseLink(content) {
+        const words = content.split(" ");
+        console.log(words);
+        return /*#__PURE__*/ jsx_runtime_.jsx("span", {
+            children: words.map((word)=>{
+                return word.match(URL_REGEX) ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: word,
+                            target: "_blank",
+                            children: word
+                        }),
+                        " "
+                    ]
+                }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                    children: [
+                        word,
+                        " "
+                    ]
+                });
+            })
+        });
+    }
     return imageItem != null && /*#__PURE__*/ jsx_runtime_.jsx("div", {
         className: (ImageViewer_module_default()).overlayBackground,
         onClick: props.handleClose,
@@ -89,13 +114,19 @@ function ImageViewer(props) {
                     src: "./images" + imageItem.src,
                     alt: "full-size image"
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: (ImageViewer_module_default()).caption,
-                    children: imageItem.p
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                    children: imageItem.title
-                })
+                imageItem.title || imageItem.p ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "text-center m-3",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                            className: (ImageViewer_module_default()).title,
+                            children: imageItem.title
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: (ImageViewer_module_default()).caption,
+                            children: TryParseLink(imageItem.p)
+                        })
+                    ]
+                }) : /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {})
             ]
         })
     });
@@ -125,7 +156,7 @@ function jobExperience() {
     const [imageItem, setImageItem] = (0,external_react_.useState)(null);
     const [showCytusList, setShowCytusList] = (0,external_react_.useState)(false);
     const handleItemClick = (item)=>{
-        console.log(item.src);
+        //   console.log(item.src);
         setImageItem(item);
     };
     const handleClose = ()=>{
