@@ -27,7 +27,7 @@ function jobExperience() {
     const [showCytusList, setShowCytusList] = useState(false);
 
     const handleItemClick = (item) => {
-      console.log(item.src);
+    //   console.log(item.src);
       setImageItem(item);
     };
 

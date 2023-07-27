@@ -26,9 +26,6 @@
     align-items: center;
   }
 
-  .overlayWindow > * {
-    margin: 10px;
-  }
 
   .overlayCloseBtn{
     position: absolute;
@@ -45,9 +42,11 @@
     --img-max-width: 80%;
     --img-max-height: 80%;
   }
-  /* .caption{
-    margin: clamp(0, 10px, 2%);
-  } */
+
+  .title{
+    font-size: 24px;
+    color: var(--bs-heading-color);
+  }
 
   /* .child {
     max-width: calc(var(--img-max-width));

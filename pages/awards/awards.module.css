@@ -9,3 +9,17 @@
     flex-direction: column;
 
 }
+
+.iframe{
+
+    margin: auto;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+
+
+    max-height: 560px;
+    max-width: max-height /16 *9;
+
+    height: 100%;
+    width: 100%;
+}

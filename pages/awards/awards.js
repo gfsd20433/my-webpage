@@ -113,7 +113,7 @@ function achievement() {
                         </a></li>
                       <li className='d-flex justify-content-between flex-wrap'>
                         <div className='col-md-6 d-flex'>
-                          <iframe className='mx-1 my-auto' width={source_width} height={source_height} src="https://www.youtube.com/embed/6GffiwfLl04" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                          <iframe className={styled.iframe} src="https://www.youtube.com/embed/6GffiwfLl04" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className='col-md-0 py-2'></div>
                         <div className='col-md-6 d-flex justify-content-center'>
@@ -135,7 +135,7 @@ function achievement() {
                         </a></li>
                       <li className='d-md-flex justify-contents-between'>
                         <div className='col-md-6 d-flex'>
-                          <iframe className='mx-1 my-auto' width={source_width} height={source_height} src="https://www.youtube.com/embed/VSCOhvoQ0wU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                          <iframe className={styled.iframe} src="https://www.youtube.com/embed/VSCOhvoQ0wU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className='col-md-0 py-2'></div>
                         <div className='col-md-6 d-flex  justify-content-center'>
@@ -157,7 +157,7 @@ function achievement() {
                         </a></li>
                       <li className='d-flex justify-content-between flex-wrap'>
                         <div className='col-md-6 d-flex'>
-                          <iframe className='mx-1 my-auto' width={source_width} height={source_height} src="https://www.youtube.com/embed/_6YzlSgZ5yY" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                          <iframe className={styled.iframe} src="https://www.youtube.com/embed/_6YzlSgZ5yY" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className='col-md-0 py-2'></div>
                         <div className='col-md-6 d-flex  justify-content-center'>
