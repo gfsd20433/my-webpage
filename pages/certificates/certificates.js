@@ -23,19 +23,21 @@ function Certificates() {
             <Row className='d-flex justify-content-between container-childa'>
                 <div className='col-md-8'>
                     <h3>
-                        
+
                         Unity Certified Associate: Game Developer (2019-2022)
-                        
+
                     </h3>
                     <p>Having solid understanding to Unity and able to design, construct and debug the applications.</p>
 
                     <ul>
                         <li style={{}}>{/* listStyle: 'none' */}
-                            <a href="https://unity.com/products/unity-certifications/associate-game-developer">
+                            <a href="https://unity.com/products/unity-certifications/associate-game-developer"
+                                target='_blank'>
                                 Unity Official Website
                                 </a></li>
                         <li style={{}}>
-                            <a href='https://www.credly.com/badges/393bc863-b8ad-41be-bd5d-af2570742442/public_url'>
+                            <a href='https://www.credly.com/badges/393bc863-b8ad-41be-bd5d-af2570742442/public_url'
+                                target='_blank'>
                                 Badge
                                 </a></li>
                     </ul>

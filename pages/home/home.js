@@ -31,12 +31,16 @@ export default function Home() {
             <Jobs/>
           </Container>
         </div>
+        <Divider/>
+        <Pages/>
 
     </Layout>
   );
 }
 
 function Intro(){
+
+  const cvLink = "https://docs.google.com/document/d/1rLOtGUQzHCZV0MZs1eMgiAgB2Kb5lXulLTxQBvU9wt0/edit"
   const delay = 100;
   return (
     <Container>
@@ -46,6 +50,9 @@ function Intro(){
           <h2 data-aos="fade-down" data-aos-delay={delay*0}>Gordon Yuen</h2>
           <h3 data-aos="fade-down" data-aos-delay={delay*1}>Programmer, Game Developer</h3>
           <p data-aos="fade-down" data-aos-delay={delay*2}>Over 4-year experience developping games and tools using Unity, including PC, Android, IOS, AR and VR applications.</p>
+          <div className='mt-4'  data-aos="fade-down"  data-aos-delay={delay*3}>
+                  <Button href={cvLink} target='_blank' className="">Download Resume</Button>
+          </div>
         </Col>
         <Col sm={12} md={6} className='p-3' data-aos="fade-left">
           <Image src="/images/web_design_profile_01.jpg" fluid />
@@ -175,4 +182,24 @@ function Jobs(){
     </Container>
 
   )
+}
+
+function Pages(){
+
+  return (
+    <>
+      <div className="d-flex flex-column align-items-center justify-content-center">
+          <div className={styled.pages}>
+            <span>Read More</span>
+          </div>
+          <div className="d-md-flex align-items-center gap-3 text-center">
+            <Button className={styled.pagesItem}><a href="/awards">Awards</a></Button>
+            <Button className={styled.pagesItem}><a href="/academic">Academic Works</a></Button>
+            <Button className={styled.pagesItem}><a href="/work-experience">Working Experiences</a></Button>
+            <Button className={styled.pagesItem}><a href="/contact">Contact</a></Button>
+          </div>
+      </div>
+    </>
+    )
+
 }

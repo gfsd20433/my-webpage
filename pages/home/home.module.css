@@ -8,3 +8,26 @@
 .li, .ol{
   list-style: none;
 }
+
+.pages{
+  margin-bottom: 0.25rem;
+}
+
+.pages >*{
+  font-family: var(--bs-body-font-family);
+  color: var(--bs-body-color);
+  font-size: 24px;
+}
+
+.pagesItem{
+  padding: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: rgba(255, 255, 255, 0.411);
+  border-style: none;
+}
+
+.pagesItem > *:hover{
+
+  color: #ffffff;
+}
