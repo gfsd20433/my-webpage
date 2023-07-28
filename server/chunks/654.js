@@ -20,7 +20,9 @@ module.exports = {
 module.exports = {
 	"table": "home_table__rK3jF",
 	"li": "home_li__foNV2",
-	"ol": "home_ol__e9JsH"
+	"ol": "home_ol__e9JsH",
+	"pages": "home_pages__QXDJx",
+	"pagesItem": "home_pagesItem__lVtKS"
 };
 
 
@@ -159,11 +161,14 @@ function Home() {
                         /*#__PURE__*/ jsx_runtime_.jsx(Jobs, {})
                     ]
                 })
-            })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(Divider/* default */.Z, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Pages, {})
         ]
     });
 }
 function Intro() {
+    const cvLink = "https://docs.google.com/document/d/1rLOtGUQzHCZV0MZs1eMgiAgB2Kb5lXulLTxQBvU9wt0/edit";
     const delay = 100;
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_bootstrap_.Container, {
         children: [
@@ -194,6 +199,17 @@ function Intro() {
                                 "data-aos": "fade-down",
                                 "data-aos-delay": delay * 2,
                                 children: "Over 4-year experience developping games and tools using Unity, including PC, Android, IOS, AR and VR applications."
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "mt-4",
+                                "data-aos": "fade-down",
+                                "data-aos-delay": delay * 3,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
+                                    href: cvLink,
+                                    target: "_blank",
+                                    className: "",
+                                    children: "Download Resume"
+                                })
                             })
                         ]
                     }),
@@ -430,6 +446,54 @@ function Jobs() {
                     })
                 ]
             })
+        })
+    });
+}
+function Pages() {
+    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "d-flex flex-column align-items-center justify-content-center",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (home_module_default()).pages,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                        children: "Read More"
+                    })
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "d-md-flex align-items-center gap-3 text-center",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
+                            className: (home_module_default()).pagesItem,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "/awards",
+                                children: "Awards"
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
+                            className: (home_module_default()).pagesItem,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "/academic",
+                                children: "Academic Works"
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
+                            className: (home_module_default()).pagesItem,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "/work-experience",
+                                children: "Working Experiences"
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
+                            className: (home_module_default()).pagesItem,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "/contact",
+                                children: "Contact"
+                            })
+                        })
+                    ]
+                })
+            ]
         })
     });
 }

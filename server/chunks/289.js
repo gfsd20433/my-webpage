@@ -68,6 +68,7 @@ function Certificates() {
                                             style: {},
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 href: "https://unity.com/products/unity-certifications/associate-game-developer",
+                                                target: "_blank",
                                                 children: "Unity Official Website"
                                             })
                                         }),
@@ -75,6 +76,7 @@ function Certificates() {
                                             style: {},
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 href: "https://www.credly.com/badges/393bc863-b8ad-41be-bd5d-af2570742442/public_url",
+                                                target: "_blank",
                                                 children: "Badge"
                                             })
                                         })

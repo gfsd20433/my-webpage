@@ -14,6 +14,7 @@ module.exports = {
 	"titleCard": "academic_titleCard__QR_FI",
 	"titleCard2": "academic_titleCard2__byb_f academic_titleCard__QR_FI",
 	"DescriptionCard": "academic_DescriptionCard__lTBzO",
+	"iframe": "academic_iframe__auory",
 	"background": "academic_background__Q24q9"
 };
 
