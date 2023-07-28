@@ -165,9 +165,9 @@ function MyPage() {
         <>
           <Divider/>
           <div className="d-flex justify-content-center">
-            <span className="ms-3">
+            <Button className={styled.pagesItem}>
               <a href='/#'>Back To Home</a>
-              </span>
+              </Button>
           </div>
         </>
       )
