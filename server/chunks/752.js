@@ -36,7 +36,8 @@ module.exports = {
 	"header": "layout_header__WIdrS",
 	"footerContainer": "layout_footerContainer__GmDee",
 	"row": "layout_row__vqY2_",
-	"backToTop": "layout_backToTop__q1wTV"
+	"backToTop": "layout_backToTop__q1wTV",
+	"pagesItem": "layout_pagesItem__kHCnP"
 };
 
 
@@ -448,8 +449,8 @@ function BackToHome({ isHome  }) {
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Divider_Divider__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {}),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "d-flex justify-content-center",
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                        className: "ms-3",
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Button, {
+                        className: (_layout_module_css__WEBPACK_IMPORTED_MODULE_7___default().pagesItem),
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                             href: "/#",
                             children: "Back To Home"
