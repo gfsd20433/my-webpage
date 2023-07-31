@@ -439,7 +439,7 @@ function Jobs() {
                     /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
                         variant: "primary",
                         className: "btn-block mt-1",
-                        href: "/job-experience",
+                        href: "/work-experience",
                         children: "Participated Projects"
                     })
                 ]
