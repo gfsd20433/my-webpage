@@ -31,8 +31,8 @@ export default function Home() {
             <Jobs/>
           </Container>
         </div>
-        <Divider/>
-        <Pages/>
+        {/* <Divider/>
+        <Pages/> */}
 
     </Layout>
   );

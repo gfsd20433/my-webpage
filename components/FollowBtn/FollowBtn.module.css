@@ -17,5 +17,7 @@
 .a{
     margin-inline-start: 0.25em;
     margin-inline-end: 0.25em;
-    font-size: --bs-body-font-size;
+    font-size: var(--bs-body-font-size);
+    color: white
+
 }

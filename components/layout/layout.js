@@ -58,7 +58,7 @@ function LayoutFooter(){
       <footer className={""}>
         <Container className={""}>
           <div className='d-md-flex'>
-            <Col className="d-flex align-items-center">
+            <Col className="d-flex">
               <Nav.Link href="/home" className='d-flex align-items-center'>
                 <Image
                   priority
@@ -72,20 +72,42 @@ function LayoutFooter(){
                 </Nav.Link>
 
             </Col>
+
+
             <div className='my-4'></div>
             <Col className='d-block'>
-                  <span style={{color:'#dddddd'}}>Links:</span>
-                  <div>
-                    <FollowButton template="github" />
-                    <FollowButton template="youtube"/>
-                    <FollowButton template="facebook"/>
+                  <div style={{color:'#dddddd', paddingBottom:'0.5rem'}}>Pages</div>
+                  <div className='d-flex flex-column'>
+                    <a className="text-white" href="/#" >Home</a>
+                    <a className="text-white" href="/awards" >Awards</a>
+                    <a className="text-white" href="/academic">Academic Works</a>
+                    <a className="text-white" href="/work-experience">Working Experiences</a>
+                    <a className="text-white" href="/contact">Contact</a>
                   </div>
-
-
             </Col>
+
+
+
+
+
+            <div className='my-4'></div>
+            <Col className='d-block'>
+              <div style={{color:'#dddddd', paddingBottom:'0.5rem'}}>Links</div>
+                  <div className='d-flex flex-column'>
+                    <FollowButton template="Github" />
+                    <FollowButton template="Youtube"/>
+                    <FollowButton template="Facebook"/>
+                  </div>
+            </Col>
+
+
+
+
+
+
             <div className='my-4'></div>
             <Col>
-                <span style={{color:'#dddddd'}}>Downloads</span>
+                <div style={{color:'#dddddd', paddingBottom:'0.5rem'}}>Downloads</div>
                 <div className=''>
                   <a href={cvLink} className="text-white" target="_blank">Resume</a>
                 </div>
