@@ -176,7 +176,7 @@ function Jobs(){
               <span><a href='https://website.app-mocha.com/' target='_blank'>App Mocha</a> - Game Programmer</span>
               </li>
           </ul>
-          <Button variant="primary"  className='btn-block mt-1' href="/job-experience">Participated Projects</Button>
+          <Button variant="primary"  className='btn-block mt-1' href="/work-experience">Participated Projects</Button>
         </Col>
       </Row>
     </Container>
