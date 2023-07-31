@@ -122,6 +122,8 @@ var jsx_runtime_ = __webpack_require__(997);
 var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: external "react-icons/fa"
 var fa_ = __webpack_require__(6290);
+// EXTERNAL MODULE: external "react-icons/bs"
+var bs_ = __webpack_require__(567);
 // EXTERNAL MODULE: ./components/FollowBtn/FollowBtn.module.css
 var FollowBtn_module = __webpack_require__(2811);
 var FollowBtn_module_default = /*#__PURE__*/__webpack_require__.n(FollowBtn_module);
@@ -130,10 +132,11 @@ var FollowBtn_module_default = /*#__PURE__*/__webpack_require__.n(FollowBtn_modu
 
 
 
+
 // https://react-icons.github.io/react-icons/icons?name=fa
 function BtnType(props) {
     switch(props.template){
-        case "facebook":
+        case "Facebook":
             return [
                 /*#__PURE__*/ jsx_runtime_.jsx(fa_.FaFacebook, {
                     style: {
@@ -142,7 +145,7 @@ function BtnType(props) {
                 }),
                 "https://www.facebook.com/gordon.yuen.7/"
             ];
-        case "github":
+        case "Github":
             return [
                 /*#__PURE__*/ jsx_runtime_.jsx(fa_.FaGithub, {
                     style: {
@@ -151,7 +154,7 @@ function BtnType(props) {
                 }),
                 "https://github.com/gfsd20433"
             ];
-        case "youtube":
+        case "Youtube":
             return [
                 /*#__PURE__*/ jsx_runtime_.jsx(fa_.FaYoutube, {
                     style: {
@@ -170,11 +173,15 @@ function BtnType(props) {
 function FollowButton(props) {
     const result = BtnType(props);
     //const handleClick = () => {window.location.href = result[1];}
-    return /*#__PURE__*/ jsx_runtime_.jsx("a", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
         href: result[1],
         className: (FollowBtn_module_default()).a,
         target: "_blank",
-        children: result[0]
+        children: [
+            result[0],
+            " ",
+            props.template
+        ]
     });
 }
 ;
@@ -305,7 +312,7 @@ function LayoutFooter() {
                     className: "d-md-flex",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Col, {
-                            className: "d-flex align-items-center",
+                            className: "d-flex",
                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Nav.Link, {
                                 href: "/home",
                                 className: "d-flex align-items-center",
@@ -331,22 +338,69 @@ function LayoutFooter() {
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Col, {
                             className: "d-block",
                             children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     style: {
-                                        color: "#dddddd"
+                                        color: "#dddddd",
+                                        paddingBottom: "0.5rem"
                                     },
-                                    children: "Links:"
+                                    children: "Pages"
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "d-flex flex-column",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            className: "text-white",
+                                            href: "/#",
+                                            children: "Home"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            className: "text-white",
+                                            href: "/awards",
+                                            children: "Awards"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            className: "text-white",
+                                            href: "/academic",
+                                            children: "Academic Works"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            className: "text-white",
+                                            href: "/work-experience",
+                                            children: "Working Experiences"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            className: "text-white",
+                                            href: "/contact",
+                                            children: "Contact"
+                                        })
+                                    ]
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "my-4"
+                        }),
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Col, {
+                            className: "d-block",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    style: {
+                                        color: "#dddddd",
+                                        paddingBottom: "0.5rem"
+                                    },
+                                    children: "Links"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "d-flex flex-column",
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_FollowBtn__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                            template: "github"
+                                            template: "Github"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_FollowBtn__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                            template: "youtube"
+                                            template: "Youtube"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_FollowBtn__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                            template: "facebook"
+                                            template: "Facebook"
                                         })
                                     ]
                                 })
@@ -357,9 +411,10 @@ function LayoutFooter() {
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.Col, {
                             children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     style: {
-                                        color: "#dddddd"
+                                        color: "#dddddd",
+                                        paddingBottom: "0.5rem"
                                     },
                                     children: "Downloads"
                                 }),

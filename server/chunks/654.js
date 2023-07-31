@@ -161,9 +161,7 @@ function Home() {
                         /*#__PURE__*/ jsx_runtime_.jsx(Jobs, {})
                     ]
                 })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(Divider/* default */.Z, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Pages, {})
+            })
         ]
     });
 }
@@ -450,43 +448,43 @@ function Jobs() {
     });
 }
 function Pages() {
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+    return /*#__PURE__*/ _jsx(_Fragment, {
+        children: /*#__PURE__*/ _jsxs("div", {
             className: "d-flex flex-column align-items-center justify-content-center",
             children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: (home_module_default()).pages,
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                /*#__PURE__*/ _jsx("div", {
+                    className: styled.pages,
+                    children: /*#__PURE__*/ _jsx("span", {
                         children: "Read More"
                     })
                 }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                /*#__PURE__*/ _jsxs("div", {
                     className: "d-md-flex align-items-center gap-3 text-center",
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
-                            className: (home_module_default()).pagesItem,
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        /*#__PURE__*/ _jsx(Button, {
+                            className: styled.pagesItem,
+                            children: /*#__PURE__*/ _jsx("a", {
                                 href: "/awards",
                                 children: "Awards"
                             })
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
-                            className: (home_module_default()).pagesItem,
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        /*#__PURE__*/ _jsx(Button, {
+                            className: styled.pagesItem,
+                            children: /*#__PURE__*/ _jsx("a", {
                                 href: "/academic",
                                 children: "Academic Works"
                             })
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
-                            className: (home_module_default()).pagesItem,
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        /*#__PURE__*/ _jsx(Button, {
+                            className: styled.pagesItem,
+                            children: /*#__PURE__*/ _jsx("a", {
                                 href: "/work-experience",
                                 children: "Working Experiences"
                             })
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_bootstrap_.Button, {
-                            className: (home_module_default()).pagesItem,
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        /*#__PURE__*/ _jsx(Button, {
+                            className: styled.pagesItem,
+                            children: /*#__PURE__*/ _jsx("a", {
                                 href: "/contact",
                                 children: "Contact"
                             })
