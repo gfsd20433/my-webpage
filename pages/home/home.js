@@ -50,6 +50,7 @@ function Intro(){
           <h2 data-aos="fade-down" data-aos-delay={delay*0}>Gordon Yuen</h2>
           <h3 data-aos="fade-down" data-aos-delay={delay*1}>Programmer, Game Developer</h3>
           <p data-aos="fade-down" data-aos-delay={delay*2}>Over 4-year experience developping games and tools using Unity, including PC, Android, IOS, AR and VR applications.</p>
+          <p data-aos="fade-down" data-aos-delay={delay*3}>Interested and good at making small to medium-scale games or applications.</p>
           <div className='mt-4'  data-aos="fade-down"  data-aos-delay={delay*3}>
                   <Button href={cvLink} target='_blank' className="">Download Resume</Button>
           </div>
@@ -176,7 +177,7 @@ function Jobs(){
               <span><a href='https://website.app-mocha.com/' target='_blank'>App Mocha</a> - Game Programmer</span>
               </li>
           </ul>
-          <Button variant="primary"  className='btn-block mt-1' href="/job-experience">Participated Projects</Button>
+          <Button variant="primary"  className='btn-block mt-1' href="/work-experience">Participated Projects</Button>
         </Col>
       </Row>
     </Container>
